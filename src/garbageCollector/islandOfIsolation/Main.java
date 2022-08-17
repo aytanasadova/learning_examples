@@ -2,7 +2,11 @@ package garbageCollector.islandOfIsolation;
 
 import garbageCollector.islandOfIsolation.domain.Person;
 
-public class Main {
+import java.lang.management.GarbageCollectorMXBean;
+import java.lang.management.ManagementFactory;
+import java.util.List;
+
+public class Main    {
 
     public static void main(String... args) {
 
@@ -26,6 +30,11 @@ public class Main {
         p2=null;
 
         System.gc();
+        List<GarbageCollectorMXBean> beans =
+                ManagementFactory.getGarbageCollectorMXBeans();
+
+        beans.stream().forEach(System.out::println);
+
 
     }
 
