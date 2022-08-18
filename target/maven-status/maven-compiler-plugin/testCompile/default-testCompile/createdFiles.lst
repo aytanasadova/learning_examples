@@ -1,0 +1,14 @@
+BankAccountTest.class
+BankAccountParallelExecutionMode.class
+BankAccountParametrizedTestTest.class
+BankAccountParameterResolver.class
+BankAccountBeforeAndAfterTest.class
+BankAccountTimeOutTest.class
+BankAccountAssumptionTest.class
+CalculationMethodsTest.class
+BankAccountDITest.class
+BankAccountNestedTest$whenBalanceEqualsZero.class
+BankAccountNestedTest.class
+BankAccountRepeatedTest.class
+CodeTest.class
+BankAccountOrderedExecutionTest.class
